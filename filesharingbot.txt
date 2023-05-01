@@ -1,0 +1,672 @@
+[07-Apr-23 05:05:41 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 05:05:41 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 05:06:39 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 05:06:39 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 05:06:46 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[07-Apr-23 05:06:47 - INFO] - bot - Bot stopped.
+[07-Apr-23 05:08:56 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 05:08:56 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 05:19:21 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:19:51 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:20:22 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa567331cc22c0c8b52b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:25:48 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[07-Apr-23 05:25:49 - INFO] - bot - Bot stopped.
+[07-Apr-23 05:25:56 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 05:25:56 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 05:27:53 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:28:23 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:28:53 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:29:24 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fa962e4201d25b7b27bea, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 05:54:34 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 05:54:34 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 06:02:43 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:03:14 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:03:44 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:06:59 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:07:29 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:07:59 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:08:31 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:08:31 - WARNING] - asyncio - socket.send() raised exception.
+[07-Apr-23 06:09:02 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:09:32 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:10:02 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:10:33 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:11:03 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb0190d58f0b1d475d03f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:11:32 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 06:11:32 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
+[07-Apr-23 06:12:24 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb41344f391feec797728, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb41344f391feec797728, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:12:54 - ERROR] - pyrogram.dispatcher - ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb41344f391feec797728, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pyromod/listen/listen.py", line 237, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/plugins/start.py", line 24, in start_command
+    if not await present_user(id):
+  File "/home/ubuntu/Bots/KRK/File-Sharing-Bot/database/database.py", line 19, in present_user
+    found = user_data.find_one({'_id': user_id})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/collection.py", line 1459, in find_one
+    for result in cursor.limit(-1):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1248, in next
+    if len(self.__data) or self._refresh():
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/cursor.py", line 1139, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1740, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/mongo_client.py", line 1685, in __start_session
+    self._topology._check_implicit_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 538, in _check_implicit_session_support
+    self._check_session_support()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 554, in _check_session_support
+    self._select_servers_loop(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/pymongo/topology.py", line 238, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ,ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: , Timeout: 30s, Topology Description: <TopologyDescription id: 642fb41344f391feec797728, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-00.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-01.zjob7ln.mongodb.net:27017: ')>, <ServerDescription ('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-1qiutz0-shard-00-02.zjob7ln.mongodb.net:27017: ')>]>
+[07-Apr-23 06:13:02 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[07-Apr-23 06:13:05 - INFO] - bot - Bot stopped.
+[07-Apr-23 07:34:28 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[07-Apr-23 07:34:28 - INFO] - bot -  
+
+       
+░█████╗░░█████╗░██████╗░███████╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
+██║░░╚═╝██║░░██║██║░░██║█████╗░░░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
+██║░░██╗██║░░██║██║░░██║██╔══╝░░░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
+╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
+░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+                                          
